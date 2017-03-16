@@ -1,3 +1,10 @@
+<?php
+
+    require '../bootstrap/autoload.php';
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
