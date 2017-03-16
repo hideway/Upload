@@ -8,15 +8,11 @@ class Config {
 
     public static function load(){
         if(is_null(self::$_config)){
-           self::$_config = self::setConfig();
+            self::$_config = [];
+            self::$_config['app'] = require 'app.php';
+            self::$_config['database'] = require 'database.php';
         }
         return self::$_config;
-    }
-
-    private static function setConfig(){
-        self::$_config = [];
-        self::$_config['app'] = require 'app.php';
-        self::$_config['database'] = require 'database.php';
     }
 
 }

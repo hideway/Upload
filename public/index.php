@@ -1,6 +1,8 @@
 <?php
 
-    require '../bootstrap/autoload.php';
+require '../bootstrap/autoload.php';
+
+require '../bootstrap/app.php';
 
 
 ?>
