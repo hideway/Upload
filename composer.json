@@ -1,0 +1,10 @@
+{
+    "name": "netadn/upload",
+    "authors": [
+        {
+            "name": "hideway",
+            "email": "inbox.martinez@gmail.com"
+        }
+    ],
+    "require": {}
+}
