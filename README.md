@@ -37,7 +37,7 @@
             }
 
             location ~* ^.+.(jpg|jpeg|gif|css|png|js|ico|xml)$ {
-                expires           0; // No cache for dev config
+                expires           0; #No cache for dev config
             }
 
             #error_page  404              /404.html;
